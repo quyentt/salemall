@@ -89,12 +89,35 @@ body {
 }
 
 .header.fixed {
-  background: rgb(43, 167, 223);
-  background: linear-gradient(
-    90deg,
-    rgba(43, 167, 223, 1) 0%,
-    rgba(29, 76, 152, 1) 100%
-  );
+  background: #fff;
+  box-shadow: 0px 40px 30px 0px rgba(14, 17, 51, 0.15);
+  height: 60px;
+  /*background: rgb(43, 167, 223);*/
+  /*background: linear-gradient(*/
+  /*  90deg,*/
+  /*  rgba(43, 167, 223, 1) 0%,*/
+  /*  rgba(29, 76, 152, 1) 100%*/
+  /*);*/
+}
+
+/*------------*/
+
+.fixed .logo-white {
+  display: none;
+}
+
+.fixed .logo-salemall {
+  display: block !important;
+  height: 40px;
+  margin-bottom: 2px;
+}
+
+.fixed .menu-link {
+  color: var(--color-text);
+}
+
+.fixed .header-content {
+  height: 60px;
 }
 
 .header-content {
@@ -134,6 +157,14 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
+}
+
+.menu-link:hover {
+  color: var(--color-yellow);
+}
+
+.fixed .menu-link:hover {
+  color: var(--color-blue);
 }
 
 .language .dropdown-label {
@@ -1405,4 +1436,27 @@ body {
 
 .logo-salemall {
   margin-bottom: 20px;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: var(--color-blue);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.go-top.show {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
 }
