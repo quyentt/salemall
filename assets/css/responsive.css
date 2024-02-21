@@ -1,0 +1,426 @@
+@media (max-width: 1280px) {
+  .menu-mobi-toggle {
+    display: block;
+    margin-left: auto;
+    color: #fff;
+    font-size: 24px;
+  }
+  .menu-group {
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    top: -150%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    flex-direction: column;
+    transition: all 0.3s;
+    z-index: 999;
+  }
+  .menu-group.show {
+    top: 0;
+  }
+  .menu-group .on-mobi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: solid 1px rgba(225, 225, 225, 0.2);
+  }
+  .menu-group .on-mobi .menu-mobi-close {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .menu-main {
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+  }
+  .menu-item {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .language {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .vision::after {
+    content: none;
+  }
+  .banner-image {
+    height: 480px;
+    opacity: 0.95;
+  }
+  .container-main {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+  }
+  .banner-content h2 {
+    font-size: 20px;
+  }
+  .banner-content p {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+  .seletion {
+    padding: 40px 0px;
+  }
+  .about-content,
+  .about-static,
+  .about-image,
+  .vision-title,
+  .vision-content-item:nth-child(1),
+  .vision-content-item:nth-child(2),
+  .vision-content-item:nth-child(3),
+  .core-value-item,
+  .partner-content .col-lg-6,
+  .partner-content .col-lg-3,
+  .partner-content .title-small {
+    width: 100%;
+  }
+  .about-static h3,
+  .about h2 {
+    text-align: center;
+  }
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .about-static-item:last-child {
+    margin-bottom: 0px;
+  }
+  .mission-image img {
+    height: 32%;
+  }
+  .mission-image {
+    height: auto;
+  }
+  .mission-wrap {
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .vision-wrap,
+  .vision-content-list,
+  .solution-pills,
+  .solution-content-pills-box,
+  .header-content {
+    display: block;
+  }
+  .header-content {
+    height: 65px;
+  }
+  .vision-content-item {
+    padding: 0px 10px 0px 0px;
+  }
+  .core-value-title h2,
+  .company-title p {
+    text-align: center;
+  }
+  .solution-title h2 {
+    line-height: 44px;
+    text-align: center;
+  }
+  .solution-nav-pills .label,
+  .solution-nav-pills-item p {
+    display: none;
+  }
+  .solution-nav-pills {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: solid 0px #f1f1f1;
+  }
+  .solution-nav-pills-item.active::before {
+    width: 100%;
+    height: 3px;
+    right: 0px;
+    bottom: -12px;
+  }
+  .solution-nav-pills-item {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+  .solution-content-list {
+    padding-top: 25px;
+  }
+  .solution-content-box {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .solution-content-image img {
+    max-width: 100%;
+  }
+  .product-content-slide .img-product img {
+    max-height: 100%;
+    width: 100%;
+  }
+  .product-content-slide h3 {
+    font-size: 20px;
+  }
+  .product-title h2 {
+    font-size: 26px;
+  }
+  .title h2 {
+    font-size: 26px;
+  }
+  .company-content,
+  .newspapers-content {
+    margin-top: 5px;
+  }
+  .article-img {
+    height: auto;
+  }
+  .article-item {
+    margin-bottom: 20px;
+  }
+  .article-list .article-item .article-img {
+    min-width: 140px;
+  }
+  .article-list .article-item .article-title a,
+  .article-list .article-item .article-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .partner .title h2,
+  .footer .title h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .footer .title h2 {
+    padding: 15px 0px;
+  }
+  .partner-content {
+    margin-top: 25px;
+  }
+  .partner-content .title-small {
+    border-top: 1px solid #d1d1d1;
+  }
+  .client {
+    padding: 0px;
+  }
+  .client-list {
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 40px;
+  }
+  .client-list li {
+    width: 29%;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 20px 20px 0px rgba(14, 17, 51, 0.15);
+  }
+  .client-list li img {
+    max-height: 50px;
+  }
+  .transport {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .transport li {
+    width: 29%;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 20px 20px 0px rgba(14, 17, 51, 0.15);
+  }
+  .transport li img {
+    max-height: 50px;
+  }
+  .transport-list,
+  .pay-list {
+    padding: 0px 0px 0px 15px;
+  }
+  .pay {
+    padding: 0px 0px 0px 0px;
+  }
+  .pay li {
+    width: 29%;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 20px 20px 0px rgba(14, 17, 51, 0.15);
+  }
+  .pay li img {
+    max-height: 50px;
+  }
+  .contact-img {
+    width: 50px;
+  }
+  .contact-item {
+    margin-bottom: 30px;
+  }
+  .contact-item:last-child {
+    margin-bottom: 0px;
+  }
+  .copy-right {
+    height: auto;
+  }
+  .copy-right .col-12 {
+    text-align: center !important;
+  }
+  .menu-mobi-toggle {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+  }
+  .partner-content .title-small {
+    margin-left: 0px;
+  }
+  .link-web li {
+    width: 100%;
+  }
+  .footer-contact .location {
+    display: none;
+  }
+  .footer-contact {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .core-value-item {
+    width: 50% !important;
+  }
+  .client-list li,
+  .transport li,
+  .pay li {
+    width: 23%;
+  }
+  .link-web li {
+    width: 50%;
+    float: left;
+  }
+  .link-web {
+    width: 100%;
+  }
+  .vision-title-intro {
+    max-width: 100%;
+  }
+  .vision-content-item .num {
+    float: left;
+    margin-bottom: 38px;
+    margin-right: 20px;
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .about-image,
+  .solution-content-image img {
+    display: none;
+  }
+  .about-content,
+  .about-static {
+    width: 50%;
+  }
+  .about-static {
+    padding-left: 50px;
+  }
+  .solution-nav-pills {
+    width: 300px;
+  }
+  .solution-content-box {
+    width: 100%;
+  }
+  .solution-content-pills {
+    flex: 1;
+  }
+  .article-list {
+    margin-top: 30px;
+  }
+  .client-list li,
+  .transport li,
+  .pay li {
+    width: 23%;
+  }
+  .link-web li {
+    width: 50%;
+    float: left;
+  }
+  .link-web {
+    width: 100%;
+  }
+  .vision-title-intro {
+    max-width: 100%;
+  }
+  .vision-content-item .num {
+    float: left;
+    margin-bottom: 38px;
+    margin-right: 20px;
+    margin-top: 2px;
+  }
+  .client {
+    padding: 0px;
+    width: 100% !important;
+  }
+  .client-list {
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 40px;
+  }
+  .client-list li {
+    width: 23%;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 20px 20px 0px rgba(14, 17, 51, 0.15);
+  }
+  .client-list li img {
+    max-height: 50px;
+  }
+  .transport {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 100% !important;
+  }
+  .transport li {
+    width: 23%;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 20px 20px 0px rgba(14, 17, 51, 0.15);
+  }
+  .transport li img {
+    max-height: 50px;
+  }
+  .transport-list,
+  .pay-list {
+    padding: 0px 0px 0px 15px;
+  }
+  .pay {
+    padding: 0px 0px 0px 0px;
+    width: 100% !important;
+  }
+  .pay li {
+    width: 23%;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 20px 20px 0px rgba(14, 17, 51, 0.15);
+  }
+  .pay li img {
+    max-height: 50px;
+  }
+  .transport .title-small,
+  .partner-content .title-small {
+    margin: 0px;
+  }
+}
