@@ -21,6 +21,9 @@
   .menu-group.show {
     top: 0;
   }
+  .header.fixed .menu-link {
+    color: #fff;
+  }
   .menu-group .on-mobi {
     display: flex;
     align-items: center;
